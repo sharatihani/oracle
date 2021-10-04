@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+body {
+  margin: 1vw 10vw 0px 10vw;
+  padding: 0px;
+  background-image: url(images/starry-bg.jpg);
+  background-size: repeat;
+  background-position: center;
+  color: #000;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin-top: 0;
+  font-size: 9vw;
+  margin-bottom: 3vmin;
+  font-family: 'WindSong', cursive;
+  font-weight: 300;
+  color: white;
+
+}
+
+h2{
+  font-family: monospace;
+  font-size: 1.5vw;
+  color: white;
+  font-style: italic;
+}
+
+h4{
+  text-align: center;
+  color: white;
+}
+
+.oracleButton{
+  border-radius: 3vw;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  width: 15vw;
+  height: 100%;
+  text-align: center;
+  padding: 15px;
+
+}
+
+#bottomContent{
+  border-radius: 3vw;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  width: 20vw;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 1vw;
+}
+
+a{
+  font-family: monospace;
+  font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5vmin;
+  grid-row-gap: 5vmin;
+  padding: 2vmin;
+  font-size: 3vmin;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin;
+  color: #000;
+  /* border: 0.6vmin solid #000; */
+  border-radius: 3vmin;
+  height: 100%;
+  /* background-image: url(images/black-starry.jpeg); */
+  /* background-image: url(wall_texture.jpg); */
+  background-color: inherit;
+  background-blend-mode: multiply;
+  -webkit-box-shadow: 0px 0px 10px 8px rgba(255,255,255,0.62);
+}
+
+
+.contentItem ul {
+  flex-grow: 1;
+}
+
+.footerImageContainer {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+
+}
+
+.footerImage {
+  width: 100%;
+  height: 100%;
+  /* border: 0.6vmin solid #000;
+  border-radius: 2vmin; */
+  /* object-fit: cover;
+  object-position: center;
+  border-style: solid; */
+  /* -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.62); */
+}
+
+.infoGrid{
+  display: flex;
+  margin-top: 4vmin;
+}
+
+.fourColumnContainer{
+  display: flex;
+  margin:2vmin;
+
+}
+.cardImage{
+  display: block;
+  width: 100%;
+  padding: 1vmin;
+
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+
+h3{
+
+  font-family: monospace;
+  font-size: 1.2vw;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
